@@ -3,13 +3,15 @@
 # count how many exploits of a specific type
 
 import shodan
+import time
 
 SHODAN_API_KEY = "myKey"
 
 api = shodan.Shodan(SHODAN_API_KEY)
 
 # Wrap the request in a try/ except block to catch errors
-devices = ['webcam',  'TP-Link', 'axis', 'D-Link', 'Dericam', 'Foscam', 'Icam', 'KaiKong', 'Loftek', 'Coolcam', 'Netcam', 'Panasonic', 'Polaroid', 'Pyle', 'Safehome', 'Sricam', 'Vstarcam', 'Wanscam', 'router', 'netgear', 'linksys', 'Asus', 'Tenda', 'Amazon Echo', 'Google Home', 'printer', 'Brother', 'HP OfficeJet', 'HP LaserJet', 'Canon', 'Epson']
+#devices = ['webcam',  'TP-Link', 'axis', 'D-Link', 'Dericam', 'Foscam', 'Icam', 'KaiKong', 'Loftek', 'Coolcam', 'Netcam', 'Panasonic', 'Polaroid', 'Pyle', 'Safehome', 'Sricam', 'Vstarcam', 'Wanscam', 'router', 'netgear', 'linksys', 'Asus', 'Tenda', 'Amazon Echo', 'Google Home', 'printer', 'Brother', 'HP OfficeJet', 'HP LaserJet', 'Canon', 'Epson']
+devices = ['webcam',  'TP-Link', 'axis', 'D-Link', 'Dericam', 'Panasonic', 'router', 'netgear', 'linksys', 'Asus', 'Tenda', 'Amazon Echo', 'printer', 'Brother', 'HP OfficeJet', 'HP LaserJet', 'Canon', 'Epson']
 # lights = ['', 'router', 'Amazon Echo', 'printer', 'light']
 exploits_type = ['dos', 'local', 'remote', 'webapps']
 exploits_platform = ['windows', 'php', 'linux', 'hardware']
@@ -27,7 +29,8 @@ for device in devices:
         num_137 = api.search(device + ' port:137')
         num_samba = api.search(device+ ' product:samba')
         #num_netbios = api.search('webcam product:netbios')
-        print(device + ', ' + str(results['total']) + ', ' + str(num_telnet['total']) + ', ' + str(num_http['total']) + ', ' + str(num_https['total']) + ', ' + str(num_8081['total']) + ', ' + str(num_8080['total']) + ', ' + str(num_21['total']) + ', ' + str(num_137['total']) + ', ' + str(num_samba['total']))
+        print(device + ', ' + str(results['total']) + ', ' + str(num_telnet['total']) + ', ' + str(num_http['total']) + ', ' + str(num_https['total']) + ', ' + str(num_8081['total']) + ', ' + str(num_8080['total']) + ', ' + str(num_ftp['total']) + ', ' + str(num_137['total']) + ', ' + str(num_samba['total']))
+        time.sleep(20)
     except Exception as e:
         print(e)
 

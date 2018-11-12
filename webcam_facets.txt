@@ -1,0 +1,51 @@
+Shodan Summary Information
+Query: webcam
+Total Results: 5688
+
+Top 5 Domains
+t-ipconnect.de: 242
+comcast.net: 201
+vodafone.pt: 147
+elbolson.com: 103
+rr.com: 39
+
+Top 3 Countries
+US: 1148
+DE: 565
+KR: 433
+
+Top 5 Common Platform Enumeration
+cpe: 745
+o: 418
+windows: 413
+microsoft: 413
+a: 336
+
+Top 5 Autonomous Systems
+as3320: 271
+as4766: 266
+as7922: 230
+as27589: 155
+as12353: 85
+
+Top 5 Organizations
+Korea Telecom: 266
+Deutsche Telekom AG: 260
+Comcast Cable: 202
+Spectrum: 127
+MOJOHOST: 117
+
+Top 5 Operating Systems
+Linux 3.x: 33
+Unix: 17
+QTS: 10
+Windows 7 or 8: 8
+Windows XP: 5
+
+Top 5 Ports
+8080: 2019
+8081: 1301
+443: 233
+80: 228
+8083: 204
+

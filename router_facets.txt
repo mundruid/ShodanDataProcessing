@@ -1,0 +1,51 @@
+Shodan Summary Information
+Query: router
+Total Results: 1851502
+
+Top 5 Domains
+veloxzone.com.br: 78395
+gvt.net.br: 67352
+algarnetsuper.com.br: 47806
+brasiltelecom.net.br: 30485
+qwest.net: 22727
+
+Top 3 Countries
+BR: 430424
+US: 261561
+RU: 107296
+
+Top 5 Common Platform Enumeration
+cpe: 445130
+a: 442250
+acme: 433273
+micro: 433263
+httpd: 433263
+
+Top 5 Autonomous Systems
+as7738: 88852
+as18881: 66635
+as53006: 51886
+as8167: 43676
+as12389: 37124
+
+Top 5 Organizations
+Oi Velox: 79094
+Vivo: 70421
+Algar Telecom: 51902
+Oi Internet: 51478
+CenturyLink: 24259
+
+Top 5 Operating Systems
+Unix: 85927
+Linux 2.6.x: 12098
+Linux 3.x: 2579
+Linux 2.4.x: 93
+Linux 2.4-2.6: 42
+
+Top 5 Ports
+80: 587712
+23: 308973
+8080: 293679
+161: 181368
+445: 85965
+

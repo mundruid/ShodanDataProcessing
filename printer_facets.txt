@@ -1,0 +1,51 @@
+Shodan Summary Information
+Query: printer
+Total Results: 136037
+
+Top 5 Domains
+optonline.net: 7561
+hinet.net: 2684
+wanadoo.fr: 1998
+pldt.net: 1463
+comcastbusiness.net: 796
+
+Top 3 Countries
+US: 33225
+KR: 19454
+DE: 10097
+
+Top 5 Common Platform Enumeration
+cpe: 538
+a: 334
+server: 129
+http: 117
+h: 97
+
+Top 5 Ports
+515: 72485
+445: 53804
+161: 3783
+79: 1351
+1900: 1210
+
+Top 5 Organizations
+Korea Telecom: 12396
+Optimum Online: 7600
+HiNet: 2737
+LG DACOM Corporation: 1793
+SK Broadband: 1478
+
+Top 5 Operating Systems
+Windows 6.1: 24762
+Unix: 18910
+Windows 5.1: 1895
+Windows 7 Professional 7601 Service Pack 1: 1173
+Windows 7 Ultimate 7601 Service Pack 1: 833
+
+Top 5 Autonomous Systems
+as4766: 12517
+as6128: 7642
+as3462: 2736
+as3786: 1884
+as7922: 1382
+

@@ -1,0 +1,928 @@
+Shodan Summary Information
+Query: TP-Link
+Total Results: 832048
+
+Top 5 Domains
+tpgi.com.au: 177845
+t-ipconnect.de: 26452
+comindico.com.au: 13678
+worldcall.net.pk: 12644
+anteldata.net.uy: 12626
+
+Top 3 Countries
+AU: 244921
+BR: 87559
+PK: 56236
+
+Top 5 Common Platform Enumeration
+cpe: 770
+a: 705
+sysoev: 368
+nginx: 368
+igor: 368
+
+Top 10 Ports
+5060: 304171
+8080: 204860
+80: 201633
+8000: 19195
+1723: 17900
+8888: 14562
+8081: 11020
+8090: 10683
+81: 6808
+88: 6740
+
+Top 5 Devices
+WAP: 177412
+switch: 465
+router: 19
+remote management: 1
+
+Top 5 Organizations
+TPG Internet: 209092
+Deutsche Telekom AG: 26275
+Connect Communications: 23402
+Administracion Nacional de Telecomunicaciones: 12929
+Fariya Networks Pvt.: 10569
+
+Top 10 Operating Systems
+Linux 2.6.x: 6435
+Linux 2.4-2.6: 17
+Linux 3.x: 12
+Unix: 9
+Windows 7 or 8: 1
+Windows 7 Ultimate 7600: 1
+Linux 2.4.x: 1
+
+Top 5 Autonomous Systems
+as7545: 195253
+as132165: 27151
+as3320: 26577
+as1290: 13394
+as6057: 12932
+
+Shodan Summary Information
+Query: axis
+Total Results: 17889
+
+Top 5 Domains
+myvzw.com: 1327
+wanadoo.fr: 1123
+spcsdns.net: 662
+joann.com: 655
+comcastbusiness.net: 515
+
+Top 3 Countries
+US: 7344
+FR: 1580
+RU: 735
+
+Top 5 Common Platform Enumeration
+cpe: 2126
+a: 2111
+server: 1979
+http: 1973
+apache: 1973
+
+Top 5 Autonomous Systems
+as22394: 1329
+as3215: 1171
+as7922: 726
+as20164: 665
+as3651: 656
+
+Top 5 Devices
+webcam: 11098
+print server: 15
+media device: 11
+router: 2
+
+Top 5 Organizations
+Verizon Wireless: 1329
+Orange: 1165
+Jo-ann Stores, LLC: 665
+Sprint PCS: 662
+Comcast Business: 509
+
+Top 10 Operating Systems
+Windows 6.1: 10
+QTS: 8
+Unix: 6
+Linux 2.6.x: 1
+
+Top 10 Ports
+21: 13161
+8081: 858
+10000: 803
+55443: 667
+23: 291
+8083: 274
+443: 130
+1900: 123
+8089: 91
+5060: 91
+
+Shodan Summary Information
+Query: D-Link
+Total Results: 410741
+
+Top 5 Domains
+starhub.net.sg: 36708
+time.net.my: 27656
+ctm.net: 26829
+hinet.net: 19233
+tm.net.my: 8237
+
+Top 3 Countries
+MY: 99636
+SG: 55145
+KR: 29426
+
+Top 5 Common Platform Enumeration
+cpe: 21550
+a: 20496
+server: 12549
+http: 12549
+apache: 12549
+
+Top 5 Autonomous Systems
+as4788: 62764
+as55430: 44455
+as9930: 36755
+as4609: 28570
+as4766: 11604
+
+Top 5 Devices
+WAP: 966
+switch: 14
+router: 7
+printer: 6
+webcam: 4
+
+Top 5 Organizations
+TM Net: 62174
+StarHub Internet: 44547
+Tt Dotcom Sdn Bhd: 34408
+Companhia de Telecomunicacoes de Macau SARL: 28568
+Korea Telecom: 11600
+
+Top 10 Operating Systems
+Linux 2.6.x: 178
+Linux 3.x: 45
+Unix: 30
+Windows 7 or 8: 19
+Linux 2.4-2.6: 13
+Windows XP: 8
+Linux 2.4.x: 8
+FreeBSD 9.x: 4
+Windows 7 Ultimate 7600: 1
+Windows 10 Pro 17134: 1
+
+Top 10 Ports
+8181: 339617
+8081: 12957
+443: 11605
+10000: 4541
+80: 4496
+161: 4048
+23: 3651
+8083: 2481
+9001: 2464
+3001: 2230
+
+Shodan Summary Information
+Query: Dericam
+Total Results: 84
+
+Top 5 Domains
+t-ipconnect.de: 13
+vodafone-ip.de: 7
+comcast.net: 6
+versanet.de: 5
+qwest.net: 5
+
+Top 3 Countries
+DE: 32
+US: 28
+GB: 6
+
+Top 5 Common Platform Enumeration
+
+Top 5 Autonomous Systems
+as3320: 15
+as7922: 9
+as8881: 5
+as701: 4
+as8412: 3
+
+Top 5 Devices
+
+Top 5 Organizations
+Deutsche Telekom AG: 12
+Vodafone DSL: 7
+htp GmbH: 6
+Comcast Cable: 6
+Versatel Deutschland: 4
+
+Top 10 Operating Systems
+
+Top 10 Ports
+8081: 31
+8089: 10
+8083: 9
+5001: 8
+443: 8
+10000: 3
+9002: 3
+8009: 3
+444: 3
+8889: 2
+
+Shodan Summary Information
+Query: Panasonic
+Total Results: 22228
+
+Top 5 Domains
+oct-net.ne.jp: 4125
+clovernet.ne.jp: 3364
+ucom.ne.jp: 1467
+ctt.ne.jp: 1251
+miyazaki-catv.ne.jp: 1155
+
+Top 3 Countries
+JP: 17018
+DE: 767
+US: 414
+
+Top 5 Common Platform Enumeration
+cpe: 64
+a: 61
+server: 41
+http: 39
+apache: 39
+
+Top 5 Autonomous Systems
+as9614: 4125
+as9354: 3594
+as17506: 1474
+as7672: 1251
+as17939: 1155
+
+Top 5 Devices
+router: 4
+WAP: 1
+
+Top 5 Organizations
+NISHIOWARI CATV CORPORATION: 3010
+Oita Cable Television Broadcasting: 3002
+ARTERIA Networks Corporation: 1501
+miyazaki cabletelevision network Co.,LTD: 1057
+Hokuden Information System Service Co.,Ltd.: 719
+
+Top 10 Operating Systems
+Linux 2.6.x: 20
+Windows Server (R) 2008 Enterprise 6002 Service Pack 2: 8
+Windows 7 Ultimate 7601 Service Pack 1: 6
+Windows 6.1: 4
+Windows 7 Professional 7601 Service Pack 1: 3
+FreeBSD 9.x: 3
+Windows 7 Home Premium 7601 Service Pack 1: 2
+Windows 5.1: 2
+Windows XP: 1
+Windows Vista (TM) Home Premium 6002 Service Pack 2: 1
+
+Top 10 Ports
+7547: 12470
+80: 3611
+554: 2685
+5060: 1623
+8081: 409
+7548: 319
+1900: 217
+161: 73
+8181: 60
+10000: 45
+
+Shodan Summary Information
+Query: netgear
+Total Results: 197683
+
+Top 5 Domains
+ertelecom.ru: 26714
+comcast.net: 11562
+rr.com: 6666
+telecomitalia.it: 6565
+cox.net: 2684
+
+Top 3 Countries
+US: 61784
+RU: 30312
+GB: 15659
+
+Top 5 Common Platform Enumeration
+cpe: 6761
+a: 6625
+proftpd: 6282
+g: 2748
+b: 468
+
+Top 5 Autonomous Systems
+as7922: 13766
+as3269: 6604
+as20115: 5315
+as22773: 5215
+as3215: 5209
+
+Top 5 Devices
+WAP: 20479
+router: 668
+switch: 29
+print server: 5
+
+Top 5 Organizations
+Spectrum: 12731
+Comcast Cable: 11737
+Telecom Italia: 5909
+Orange: 5368
+Cox Communications: 3242
+
+Top 10 Operating Systems
+Linux 2.6.x: 2245
+Linux 2.4.x: 1006
+Unix: 56
+Windows XP: 14
+Linux 3.x: 12
+Windows 6.1: 4
+Linux 2.4-2.6: 4
+Windows 7 or 8: 1
+QTS: 1
+
+Top 10 Ports
+8080: 68062
+8443: 54636
+7547: 33972
+80: 10592
+21: 9191
+443: 3476
+1900: 3433
+8081: 2234
+2323: 1455
+8083: 1153
+
+Shodan Summary Information
+Query: linksys
+Total Results: 23090
+
+Top 5 Domains
+comcast.net: 1160
+rr.com: 952
+charter.com: 640
+cox.net: 568
+hinet.net: 228
+
+Top 3 Countries
+US: 8255
+CA: 1814
+IT: 1233
+
+Top 5 Common Platform Enumeration
+cpe: 40
+o: 19
+linux: 19
+kernel: 19
+a: 15
+
+Top 5 Autonomous Systems
+as7922: 1488
+as20115: 732
+as18822: 648
+as22773: 577
+as3462: 194
+
+Top 5 Devices
+WAP: 6566
+VoIP adapter: 226
+VoIP phone: 4
+router: 3
+
+Top 5 Organizations
+Spectrum: 1707
+Comcast Cable: 1177
+Manquehuenet: 618
+HiNet: 232
+Shaw Communications: 194
+
+Top 10 Operating Systems
+Linux 2.6.x: 343
+Linux 2.4-2.6: 124
+Linux 2.4.x: 68
+Linux 3.x: 17
+Unix: 7
+Windows 7 or 8: 1
+
+Top 10 Ports
+8080: 7617
+5060: 4001
+80: 3948
+443: 2367
+10000: 1346
+8081: 784
+8010: 453
+21: 417
+137: 232
+8888: 219
+
+Shodan Summary Information
+Query: Asus
+Total Results: 79076
+
+Top 5 Domains
+hinet.net: 4259
+comcast.net: 4222
+rdsnet.ro: 2206
+netvigator.com: 1949
+rr.com: 1567
+
+Top 3 Countries
+US: 12952
+CN: 10619
+RU: 7890
+
+Top 5 Common Platform Enumeration
+cpe: 345
+a: 289
+micro: 157
+httpd: 157
+acme: 147
+
+Top 5 Autonomous Systems
+as4134: 6340
+as7922: 4310
+as3462: 4273
+as8708: 2258
+as4837: 1618
+
+Top 5 Devices
+WAP: 850
+router: 9
+printer: 1
+
+Top 5 Organizations
+HiNet: 4273
+Comcast Cable: 4265
+Spectrum: 3359
+RCS & RDS Residential: 1678
+Korea Telecom: 1331
+
+Top 10 Operating Systems
+Linux 2.6.x: 44
+Windows 6.1: 28
+Unix: 22
+QTS: 22
+Linux 2.4-2.6: 7
+Windows 7 Ultimate 7601 Service Pack 1: 1
+Linux 3.x: 1
+Linux 2.4.x: 1
+
+Top 10 Ports
+21: 73444
+8081: 2369
+137: 970
+8080: 624
+80: 545
+23: 182
+2121: 163
+445: 57
+443: 37
+1723: 35
+
+Shodan Summary Information
+Query: Tenda
+Total Results: 5300
+
+Top 5 Domains
+hinet.net: 214
+163data.com.cn: 192
+rdsnet.ro: 88
+adsl-pool.sx.cn: 58
+adsl.: 50
+
+Top 3 Countries
+CN: 2476
+SY: 1058
+TW: 284
+
+Top 5 Common Platform Enumeration
+
+Top 5 Autonomous Systems
+as4134: 1159
+as29256: 1046
+as4837: 827
+as3462: 214
+as4808: 130
+
+Top 5 Devices
+router: 2
+WAP: 2
+
+Top 5 Organizations
+Sama Group LLC: 757
+China Telecom jiangsu: 313
+HiNet: 214
+China Unicom Beijing: 174
+China Unicom Liaoning: 94
+
+Top 10 Operating Systems
+QTS: 1
+
+Top 10 Ports
+1900: 2764
+80: 1620
+21: 711
+8080: 39
+1723: 33
+2121: 21
+22: 16
+8181: 7
+8089: 6
+8087: 5
+
+Shodan Summary Information
+Query: Amazon Echo
+Total Results: 31
+
+Top 5 Domains
+t-ipconnect.de: 4
+amazonaws.com: 4
+wanadoo.fr: 3
+btcentralplus.com: 3
+versanet.de: 2
+
+Top 3 Countries
+US: 8
+DE: 8
+FR: 4
+
+Top 5 Common Platform Enumeration
+cpe: 21
+z: 18
+mortbay: 15
+jetty: 15
+a: 13
+
+Top 5 Autonomous Systems
+as62567: 4
+as3320: 4
+as3215: 3
+as2856: 3
+as8881: 2
+
+Top 5 Devices
+
+Top 5 Organizations
+Digital Ocean: 4
+Deutsche Telekom AG: 4
+Orange: 3
+BT: 3
+Amazon.com: 3
+
+Top 10 Operating Systems
+
+Top 10 Ports
+8081: 9
+8083: 5
+8089: 4
+3001: 3
+443: 3
+444: 2
+9443: 1
+9001: 1
+8181: 1
+4730: 1
+
+Shodan Summary Information
+Query: Brother
+Total Results: 14118
+
+Top 5 Domains
+sbcglobal.net: 676
+rr.com: 371
+bouyguestelecom.com: 350
+t-ipconnect.de: 176
+wanadoo.fr: 154
+
+Top 3 Countries
+US: 4528
+FR: 793
+KR: 608
+
+Top 5 Common Platform Enumeration
+cpe: 115
+a: 112
+server: 94
+http: 92
+apache: 92
+
+Top 5 Autonomous Systems
+as7018: 875
+as4766: 525
+as7922: 492
+as14117: 420
+as5410: 267
+
+Top 5 Devices
+router: 3
+printer: 1
+WAP: 1
+
+Top 5 Organizations
+Spectrum: 579
+Korea Telecom: 530
+AT&T U-verse: 490
+Telefonica del Sur S.A.: 388
+Bouygues Telecom: 206
+
+Top 10 Operating Systems
+Windows 6.1: 190
+Windows 7 Professional 7601 Service Pack 1: 112
+Unix: 82
+Windows 7 Ultimate 7601 Service Pack 1: 39
+Windows Server 2008 R2 Standard 7601 Service Pack 1: 25
+Windows 10 Pro 17134: 22
+Windows 7 Home Premium 7601 Service Pack 1: 19
+Windows Server 2012 R2 Standard 9600: 17
+Windows Server 2008 R2 Enterprise 7601 Service Pack 1: 11
+Windows Server 2016 Standard 14393: 9
+
+Top 10 Ports
+9100: 7620
+161: 5356
+445: 724
+137: 131
+443: 54
+21: 26
+25: 16
+1723: 15
+80: 14
+8081: 13
+
+Shodan Summary Information
+Query: HP OfficeJet
+Total Results: 63474
+
+Top 5 Domains
+sbcglobal.net: 2805
+rr.com: 1930
+comcast.net: 1615
+telenet.be: 853
+charter.com: 446
+
+Top 3 Countries
+KR: 27309
+US: 21416
+DE: 1082
+
+Top 5 Common Platform Enumeration
+cpe: 5082
+officejet: 5080
+hp: 5080
+h: 5080
+pro: 4105
+
+Top 5 Autonomous Systems
+as4766: 20756
+as7018: 3509
+as9318: 1836
+as7922: 1811
+as3786: 1244
+
+Top 5 Devices
+printer: 5080
+
+Top 5 Organizations
+Korea Telecom: 20684
+Spectrum: 3071
+AT&T U-verse: 2398
+SK Broadband: 1822
+Comcast Cable: 1643
+
+Top 10 Operating Systems
+Windows 6.1: 92
+Unix: 42
+Windows 7 Professional 7601 Service Pack 1: 32
+Windows 7 Home Premium 7601 Service Pack 1: 23
+Windows 7 Ultimate 7601 Service Pack 1: 16
+Windows 10 Pro 17134: 10
+Windows Server 2012 R2 Standard 9600: 8
+Windows Server 2008 R2 Standard 7601 Service Pack 1: 6
+Windows Server 2008 R2 Enterprise 7601 Service Pack 1: 5
+Windows Server 2016 Standard 14393: 4
+
+Top 10 Ports
+8080: 21410
+80: 21144
+443: 11300
+631: 8100
+9100: 763
+445: 290
+8081: 55
+81: 44
+82: 25
+9200: 15
+
+Shodan Summary Information
+Query: HP LaserJet
+Total Results: 24448
+
+Top 5 Domains
+comcastbusiness.net: 544
+rr.com: 413
+sbcglobal.net: 409
+comcast.net: 279
+prod-infinitum.com.mx: 223
+
+Top 3 Countries
+US: 6976
+KR: 2092
+TW: 1588
+
+Top 5 Common Platform Enumeration
+cpe: 162
+a: 162
+virata: 161
+emweb: 161
+laserjet: 56
+
+Top 5 Autonomous Systems
+as4766: 1089
+as7922: 903
+as1659: 856
+as7018: 752
+as278: 225
+
+Top 5 Devices
+print server: 393
+printer: 83
+
+Top 5 Organizations
+Korea Telecom: 1082
+Comcast Business: 547
+Taiwan Academic Network (TANet) Information Center: 510
+Taiwan Academic Network: 435
+Spectrum: 431
+
+Top 10 Operating Systems
+Windows 6.1: 492
+Windows 7 Professional 7601 Service Pack 1: 341
+Windows 7 Ultimate 7601 Service Pack 1: 273
+Unix: 234
+Windows 10 Pro 17134: 118
+Windows Server 2012 R2 Standard 9600: 67
+Windows Server 2008 R2 Standard 7601 Service Pack 1: 62
+Windows Server 2008 R2 Enterprise 7601 Service Pack 1: 30
+Windows 7 Home Premium 7601 Service Pack 1: 30
+Windows 8.1 Pro 9600: 24
+
+Top 10 Ports
+9100: 15034
+161: 4795
+445: 2379
+21: 2031
+8081: 83
+8083: 26
+9000: 18
+8181: 10
+8089: 7
+9001: 5
+
+Shodan Summary Information
+Query: Canon
+Total Results: 20263
+
+Top 5 Domains
+regusnet.com: 302
+comcastbusiness.net: 161
+rr.com: 152
+csufresno.edu: 116
+sbcglobal.net: 108
+
+Top 3 Countries
+KR: 6176
+US: 3479
+JP: 850
+
+Top 5 Common Platform Enumeration
+cpe: 270
+h: 186
+canon: 186
+nb: 158
+ec: 144
+
+Top 5 Autonomous Systems
+as4766: 2975
+as8220: 1314
+as3786: 574
+as1659: 528
+as7922: 220
+
+Top 5 Devices
+print server: 170
+printer: 38
+firewall: 4
+
+Top 5 Organizations
+Korea Telecom: 2895
+COLT Technology Services Group Limited: 965
+LG DACOM Corporation: 539
+SK Broadband: 262
+Taiwan Academic Network (TANet) Information Center: 192
+
+Top 10 Operating Systems
+Windows 6.1: 270
+Windows 7 Ultimate 7601 Service Pack 1: 180
+Linux 2.4-2.6: 144
+Windows 7 Professional 7601 Service Pack 1: 140
+Unix: 115
+Windows 10 Pro 17134: 51
+Windows Server 2012 R2 Standard 9600: 26
+Windows 8.1 Pro 9600: 20
+Windows 7 Home Premium 7601 Service Pack 1: 19
+Windows Server 2008 R2 Standard 7601 Service Pack 1: 18
+
+Top 10 Ports
+80: 6256
+161: 6205
+443: 4435
+445: 1226
+631: 1147
+8081: 266
+21: 184
+8080: 108
+8083: 69
+25: 12
+
+Shodan Summary Information
+Query: Epson
+Total Results: 11367
+
+Top 5 Domains
+sbcglobal.net: 288
+hinet.net: 212
+prod-infinitum.com.mx: 130
+rr.com: 126
+wanadoo.fr: 123
+
+Top 3 Countries
+TW: 2548
+US: 2105
+KR: 1670
+
+Top 5 Common Platform Enumeration
+cpe: 90
+o: 69
+stylus: 66
+linux: 64
+nx: 47
+
+Top 5 Autonomous Systems
+as1659: 1584
+as4766: 1237
+as14117: 480
+as7018: 356
+as3462: 170
+
+Top 5 Devices
+printer: 992
+
+Top 5 Organizations
+Korea Telecom: 1224
+Taiwan Academic Network (TANet) Information Center: 942
+Taiwan Academic Network: 542
+Telefonica del Sur S.A.: 480
+Ministry of Education Computer Center: 116
+
+Top 10 Operating Systems
+Windows 6.1: 263
+Windows 7 Professional 7601 Service Pack 1: 211
+Unix: 211
+Windows 7 Ultimate 7601 Service Pack 1: 133
+Windows 10 Pro 17134: 72
+Windows 8.1 Pro 9600: 32
+Windows Server 2008 R2 Standard 7601 Service Pack 1: 25
+Windows 7 Home Premium 7601 Service Pack 1: 21
+Windows Server 2012 R2 Standard 9600: 13
+Windows 5.1: 10
+
+Top 10 Ports
+161: 5989
+80: 1940
+445: 1432
+443: 838
+631: 440
+9100: 390
+1900: 162
+23: 29
+8081: 20
+5357: 14
+
