@@ -4,7 +4,7 @@
 
 import shodan
 
-SHODAN_API_KEY = "myKey"
+SHODAN_API_KEY = "myKEy"
 
 api = shodan.Shodan(SHODAN_API_KEY)
 

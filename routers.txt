@@ -1,0 +1,227 @@
+Searching for netgear
+** 287 routers **
+=================================================================================
+exploit search dos
+=================================================================================
+Exploits found: 9
+CVE: []
+Description: NETGEAR SSL312 Router - Denial of Service
+Platform: hardware
+
+CVE: []
+Description: NETGEAR WGR614 - Administration Interface Remote Denial of Service
+Platform: hardware
+
+CVE: []
+Description: NETGEAR DG632 Router - Remote Denial of Service
+Platform: hardware
+
+CVE: []
+Description: Multiple Routers - 'IRC Request' Disconnect Denial of Service
+Platform: hardware
+
+CVE: [u'CVE-2014-4927']
+Description: ACME micro_httpd - Denial of Service
+Platform: linux
+
+CVE: []
+Description: NETGEAR ProSafe 1.x - VPN Firewall Web Interface Login Denial of Service
+Platform: hardware
+
+CVE: []
+Description: NETGEAR WGR614v9 Wireless Router - Denial of Service
+Platform: hardware
+
+CVE: [u'CVE-2013-4776']
+Description: NETGEAR ProSafe - Denial of Service
+Platform: hardware
+
+CVE: [u'CVE-2015-3036']
+Description: NetUSB - Kernel Stack Buffer Overflow
+Platform: hardware
+
+Searching for netgear
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for netgear
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for netgear
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for linksys
+** 1,411 routers **
+=================================================================================
+exploit search dos
+=================================================================================
+Exploits found: 15
+CVE: []
+Description: Linksys SPA-2102 Phone Adapter Packet Handling - Denial of Service
+Platform: hardware
+
+CVE: []
+Description: Linksys BEFSR41 1.4x - 'Gozila.cgi' Denial of Service
+Platform: hardware
+
+CVE: []
+Description: Linksys Routers - LanD Packet Denial of Service
+Platform: hardware
+
+CVE: []
+Description: Linksys PSUS4 PrintServer - POST Denial of Service
+Platform: hardware
+
+CVE: []
+Description: Linksys WRH54G 1.1.3 Wireless-G Router - HTTP Request Denial of Service
+Platform: hardware
+
+CVE: []
+Description: Multiple Routers - 'IRC Request' Disconnect Denial of Service
+Platform: hardware
+
+CVE: []
+Description: Cisco Linksys WRT310N Router - Multiple Denial of Service Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: Linksys WAG54G v2 Wireless ADSL Router - HTTPd Denial of Service
+Platform: hardware
+
+CVE: []
+Description: Linksys Devices 1.42/1.43 - 'GET' Buffer Overflow (PoC)
+Platform: hardware
+
+CVE: []
+Description: Linksys SPA941 - '\377' Character Remote Denial of Service
+Platform: hardware
+
+CVE: []
+Description: Cisco Linksys WVC200 Wireless-G PTZ Internet Video Camera PlayerPT - ActiveX Control PlayerPT.ocx sprintf Buffer Overflow (PoC)
+Platform: windows
+
+CVE: []
+Description: Linksys SPA941 - Remote Reboot (Denial of Service)
+Platform: hardware
+
+CVE: []
+Description: Google Chrome - Silent HTTP Authentication
+Platform: multiple
+
+CVE: []
+Description: Linksys WAP11 1.3/1.4 / D-Link DI-804 4.68/Dl-704 2.56 b5 - Embedded HTTP Server Denial of Service
+Platform: hardware
+
+CVE: []
+Description: Cisco Aironet Wireless Access Points - Memory Exhaustion ARP (Denial of Service)
+Platform: hardware
+
+Searching for linksys
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for linksys
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for linksys
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for Asus
+** 248 routers **
+=================================================================================
+exploit search dos
+=================================================================================
+Exploits found: 2
+CVE: []
+Description: Broadcom BCM4325 / BCM4329 Devices - Denial of Service
+Platform: hardware
+
+CVE: []
+Description: ASUS Memory Mapping Driver (ASMMAP/ASMMAP64) - Physical Memory Read/Write
+Platform: windows
+
+Searching for Asus
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Asus
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Asus
+=================================================================================
+exploit search webapps
+=================================================================================
+Exploits found: 10
+CVE: []
+Description: ESMI PayPal StoreFront 1.7 - 'products1.php?id2' SQL Injection
+Platform: php
+
+CVE: []
+Description: ASUS-DSL N10 1.1.2.2_17 - Authentication Bypass
+Platform: hardware
+
+CVE: []
+Description: Asus RT-N66U 3.0.0.4.374_720 - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: ASUS DSL-X11 ADSL Router - DNS Change
+Platform: cgi
+
+CVE: []
+Description: ASUS DSL-N12E_C1 1.1.2.3_345 - Remote Command Execution
+Platform: hardware
+
+CVE: []
+Description: ASUS DSL-N14U B1 Router 1.1.2.3_345 - Change Administrator Password
+Platform: hardware
+
+CVE: []
+Description: ESMI PayPal StoreFront 1.7 - Cross-Site Scripting
+Platform: php
+
+CVE: []
+Description: AsusWRT RT-AC750GF - Cross-Site Request Forgery (Change Admin Password)
+Platform: hardware
+
+CVE: []
+Description: Asus RT56U 3.0.0.4.360 - Remote Command Injection
+Platform: hardware
+
+CVE: [u'CVE-2014-8272']
+Description: Dell iDRAC IPMI 1.5 - Insufficient Session ID Randomness
+Platform: hardware
+
+Searching for Tenda
+=================================================================================
+exploit search dos
+=================================================================================
+Exploits found: 0
+Searching for Tenda
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Tenda
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Tenda
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response

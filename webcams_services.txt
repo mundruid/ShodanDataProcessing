@@ -1,0 +1,17 @@
+device, total, port:23, port:80, port:8080, port:8081, port:137, product:samba
+webcam, 5,601, 5, 259, 1,975, 1,293, 1, 26
+router, 1,872,331, 313,108, 597,133, 39,760, 4,564, 85,708
+TOP router SERVICES
+HTTP 597,133
+Telnet 313,108
+HTTP (8080) 297,846
+SNMP 183,488
+SMB 86,656
+assistant, 27, 0, 0, 8, 3, 0, 0
+printer, 136,708, 123, 605, 219, 153, 44, 43,968 
+TOP printer SERVICES
+Line Printer Daemon 72,822
+SMB 54,057
+SNMP 3,760
+Finger 1,338
+UPnP 1,259

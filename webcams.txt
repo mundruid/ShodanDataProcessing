@@ -1,0 +1,1351 @@
+Searching for TP-Link
+** 62 webcams ** 
+=================================================================================
+exploit search dos
+=================================================================================
+Exploits found: 12
+CVE: [u'CVE-2018-14336']
+Description: TP-Link TL-WR840N - Denial of Service
+Platform: hardware
+
+CVE: []
+Description: TP-LINK TD-W8951ND - Denial of Service
+Platform: hardware
+
+CVE: [u'CVE-2018-15172']
+Description: TP-Link WR840N 0.9.1 3.16 - Denial of Service (PoC)
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WR740N - Denial of Service
+Platform: hardware
+
+CVE: []
+Description: TP-Link Wireless N Router WR840N - Denial of Service (PoC)
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WR741N / TL-WR741ND Routers - Multiple Denial of Service Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WR740N Wireless Router - Denial of Service
+Platform: hardware
+
+CVE: []
+Description: ZTE / TP-Link RomPager - Denial of Service
+Platform: hardware
+
+CVE: []
+Description: TP-LINK TD-W8151N - Denial of Service
+Platform: hardware
+
+CVE: []
+Description: TP-LINK TDDP - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WR740N / TL-WR740ND 150M Wireless Lite N Router - HTTP Denial of Service
+Platform: hardware
+
+CVE: [u'CVE-2012-5876', u'CVE-2012-5877']
+Description: Nero MediaHome 4.5.8.0 - Denial of Service
+Platform: windows
+
+Searching for TP-Link
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for TP-Link
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for TP-Link
+=================================================================================
+exploit search webapps
+=================================================================================
+Exploits found: 31
+CVE: []
+Description: TP-Link Archer CR-700 - Cross-Site Scripting
+Platform: hardware
+
+CVE: [u'CVE-2015-9222', u'CVE-2014-9222']
+Description: RomPager 4.34 (Multiple Router Vendors) - 'Misfortune Cookie' Authentication Bypass
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WR740N - Cross-Site Scripting
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-SC3130 1.6.18 - RTSP Stream Disclosure
+Platform: hardware
+
+CVE: []
+Description: TP-Link TD-8840t - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: [u'CVE-2017-15291']
+Description: TP-Link TL-MR3220 - Cross-Site Scripting
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WR841N Router - Local File Inclusion
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-PS110U / TL-PS110P - Cross-Site Scripting
+Platform: hardware
+
+CVE: []
+Description: TP-Link TD-8817 6.0.1 Build 111128 Rel.26763 - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: TP-Link C50 Wireless Router 3 - Cross-Site Request Forgery (Remote Reboot)
+Platform: hardware
+
+CVE: []
+Description: TP-Link Technologies TL-WA850RE Wi-Fi Range Extender - Remote Reboot
+Platform: hardware
+
+CVE: []
+Description: TP-Link TD-W8951ND - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WR740N v4 Router (FW-Ver. 3.16.6 Build 130529 Rel.47286n) - Command Execution
+Platform: hardware
+
+CVE: [u'CVE-2013-2572', u'CVE-2013-2573']
+Description: TP-Link IP Cameras Firmware 1.6.18P12 - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WA701N / TL-WA701ND - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: TP-Link TD-W8950ND ADSL2+ - Remote DNS Change
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WR340G / TL-WR340GD - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: [u'CVE-2013-2578', u'CVE-2013-2579', u'CVE-2013-2580', u'CVE-2013-2581']
+Description: TP-Link TL-SC3171 IP Cameras - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: TP-Link WR842ND - Remote Multiple SSID Directory Traversals
+Platform: hardware
+
+CVE: []
+Description: TP-Link - Admin Panel Multiple Cross-Site Request Forgery Vulnerabilities
+Platform: hardware
+
+CVE: [u'CVE-2014-4018', u'CVE-2014-4019', u'CVE-2014-4154', u'CVE-2014-4155']
+Description: ZTE WXV10 W300 - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WR841N / TL-WR841ND - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WA850RE - Remote Command Execution
+Platform: hardware
+
+CVE: []
+Description: TP-Link C50 Wireless Router 3 - Cross-Site Request Forgery (Information Disclosure)
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WR840N/TL-WR841N - Authenticaton Bypass
+Platform: hardware
+
+CVE: []
+Description: TP-Link Gateway 3.12.4 - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: PhotoStand 1.2.0 - Remote Command Execution
+Platform: php
+
+CVE: []
+Description: TP-Link WR740N/WR740ND - Multiple Cross-Site Request Forgery Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: Shadowed Portal 5.7d3 - Remote Command Execution
+Platform: php
+
+CVE: []
+Description: Encore ENPS-2012 - Cross-Site Scripting
+Platform: hardware
+
+CVE: []
+Description: TP-Link WR940N - (Authenticated) Remote Code
+Platform: hardware
+
+Searching for axis
+webcam 30
+=================================================================================
+exploit search dos
+=================================================================================
+Exploits found: 5
+CVE: []
+Description: RealNetworks RealPlayer/HelixPlayer - SMIL wallclock Stack Overflow (PoC)
+Platform: windows
+
+CVE: []
+Description: Axis Print Server 6.15/6.20 - Web Interface Denial of Service
+Platform: multiple
+
+CVE: [u'CVE-2013-3543']
+Description: AXIS Media Control 6.2.10.11 - Unsafe ActiveX Method
+Platform: windows
+
+CVE: []
+Description: Beckhoff TwinCAT 2.11.0.2004 - Denial of Service
+Platform: windows
+
+CVE: [u'CVE-2011-0978']
+Description: Microsoft Excel - Axis Properties Record Parsing Buffer Overflow (PoC) (MS11-02)
+Platform: windows
+
+Searching for axis
+=================================================================================
+exploit search local
+=================================================================================
+Exploits found: 3
+CVE: []
+Description: XFree86 4.2 - 'XLOCALEDIR' Local Buffer Overflow (4)
+Platform: linux
+
+CVE: []
+Description: Wireless Tools 26 (IWConfig) - ARGV Local Command Line Buffer Overflow (1)
+Platform: linux
+
+CVE: []
+Description: Maelstrom Server 3.0.x - Argument Buffer Overflow (2)
+Platform: freebsd
+
+Searching for axis
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for axis
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for D-Link
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for D-Link
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for D-Link
+** 28 webcams **
+=================================================================================
+exploit search remote
+=================================================================================
+Exploits found: 187
+CVE: []
+Description: D-Link - Captcha Bypass
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR-100 1.12 - Security Bypass
+Platform: hardware
+
+CVE: []
+Description: D-Link Airspot DSA-3100 Gateway - 'Login_error.SHTML' Cross-Site Scripting
+Platform: hardware
+
+CVE: []
+Description: D-Link ShareCenter Products - Multiple Remote Code Execution Vulnerabilities
+Platform: hardware
+
+CVE: [u'cve-2010-1297']
+Description: Adobe Flash / Reader - Live Malware
+Platform: multiple
+
+CVE: [u'CVE-2016-9244']
+Description: F5 BIG-IP 11.6 SSL Virtual Server - 'Ticketbleed' Memory Disclosure
+Platform: hardware
+
+CVE: [u'CVE-2010-0926']
+Description: Samba 4.5.2 - Symlink Race Permits Opening Files Outside Share Directory
+Platform: multiple
+
+CVE: []
+Description: D-Link DSL-2730U/2750U/2750E ADSL Router - Remote File Disclosure
+Platform: hardware
+
+CVE: []
+Description: D-Link Devices - 'Authentication.cgi' Remote Buffer Overflow (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: Opera 7.22 - File Creation and Execution (WebServer)
+Platform: windows
+
+CVE: []
+Description: D-Link Devices - 'tools_vct.xgi' Remote Command Execution (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: D-Link DCS - 'security.cgi' Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: FTP Media Server 3.0 - Authentication Bypass / Denial of Service
+Platform: ios
+
+CVE: []
+Description: Postfix SMTP 4.2.x < 4.2.48 - 'Shellshock' Remote Command Injection
+Platform: linux
+
+CVE: []
+Description: MacKeeper - URL Handler Remote Code Execution
+Platform: osx
+
+CVE: []
+Description: D-Link DKVM-IP8 - 'auth.asp' Cross-Site Scripting
+Platform: hardware
+
+CVE: []
+Description: D-Link DSL-G624T - Information Disclosure
+Platform: hardware
+
+CVE: []
+Description: Opera 7.x - Directory Traversal
+Platform: windows
+
+CVE: [u'CVE-2018-10110']
+Description: D-Link DIR-615 Wireless Router - Persistent Cross Site Scripting
+Platform: hardware
+
+CVE: []
+Description: Apple QuickTime plugin - Windows 4.1.2 (Japanese) Remote Overflow
+Platform: windows
+
+CVE: []
+Description: D-Link / PLANEX COMMUNICATIONS - 'RuntimeDiagnosticPing()' Remote Stack Buffer Overflow
+Platform: hardware
+
+CVE: []
+Description: miniature java Web server 1.71 - Multiple Vulnerabilities
+Platform: multiple
+
+CVE: []
+Description: HP JetAdmin 1.0.9 Rev. D - symlink
+Platform: linux
+
+CVE: []
+Description: Reaver - WiFi Protected Setup (WPS)
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR-890L/R - Multiple Buffer Overflow Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR-300 - Multiple Security Bypass Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: D-Link DAP-1160 Wireless Access Point - DCC Protocol Security Bypass
+Platform: hardware
+
+CVE: []
+Description: D-Link DCS-900 Camera - Remote IP Address Changer
+Platform: hardware
+
+CVE: []
+Description: Microsoft Internet Explorer 6/7 - Remote Code Execution (Remote User Add)
+Platform: windows
+
+CVE: []
+Description: HP OpenView Network Node Manager 7.50 - Remote Command Execution
+Platform: multiple
+
+CVE: []
+Description: D-Link DIR-615 - Multiple Buffer Overflow Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: Apache suEXEC - Information Disclosure / Privilege Escalation
+Platform: linux
+
+CVE: []
+Description: D-Link DSL-G624T - Var:RelaodHref Cross-Site Scripting
+Platform: hardware
+
+CVE: []
+Description: D-Link HNAP - Request Remote Buffer Overflow (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: D-Link TFTP 1.0 - Transporting Mode Remote Buffer Overflow
+Platform: hardware
+
+CVE: [u'CVE-2015-1158']
+Description: CUPS < 2.0.3 - Remote Command Execution
+Platform: linux
+
+CVE: []
+Description: D-Link DSL-2740R - Remote DNS Change
+Platform: hardware
+
+CVE: [u'CVE-2013-2088', u'cve-2013-2088']
+Description: Subversion 1.6.6/1.6.12 - Code Execution
+Platform: linux
+
+CVE: []
+Description: D-Link DWL-G132 - Wireless Driver Beacon Rates Overflow (Metasploit)
+Platform: windows
+
+CVE: []
+Description: FathFTP 1.8 - 'EnumFiles Method' ActiveX Buffer Overflow (SEH)
+Platform: windows
+
+CVE: []
+Description: Oracle JRE - java.net.URLConnection class Same-of-Origin 'SOP' Policy Bypass
+Platform: windows
+
+CVE: []
+Description: Barracuda Web Application Firewall 8.0.1.008 - (Authenticated) Remote Command Execution (Metasploit)
+Platform: linux
+
+CVE: []
+Description: SKILLS.com.au Industry App - Man In The Middle Remote Code Execution
+Platform: android
+
+CVE: []
+Description: D-Link DSL-2750B - OS Command Injection (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: Sagem F@st 3304 Routers - PPPoE Credentials Information Disclosure
+Platform: hardware
+
+CVE: []
+Description: D-Link VoIP Phone Adapter - Cross-Site Scripting / Cross-Site Request Forgery Remote Firmware Overwrite
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR-300 - WiFi Key Security Bypass
+Platform: hardware
+
+CVE: []
+Description: D-Link DWL Series Access-Point 2.10na - Config Disclosure
+Platform: hardware
+
+CVE: []
+Description: Disk Savvy Enterprise 9.9.14 - Remote Buffer Overflow (SEH)
+Platform: windows
+
+CVE: []
+Description: Disk Pulse Enterprise 9.9.16 - Remote Buffer Overflow (SEH)
+Platform: windows
+
+CVE: []
+Description: D-Link DIR-865L - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: D-Link TFTP 1.0 - 'Filename' Remote Buffer Overflow (Metasploit)
+Platform: windows
+
+CVE: []
+Description: D-Link DSL Router - Remote Authentication Bypass
+Platform: hardware
+
+CVE: []
+Description: D-Link Devices - 'info.cgi' POST Buffer Overflow (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: Working Resources BadBlue 2.55 - MFCISAPICommand Remote Buffer Overflow (2)
+Platform: windows
+
+CVE: []
+Description: D-Link DIR-Series Routers - HNAP Login Stack Buffer Overflow (Metasploit)
+Platform: multiple
+
+CVE: []
+Description: D-Link Devices - Cookie Command Execution (Metasploit)
+Platform: hardware
+
+CVE: [u'CVE-2017-14702']
+Description: ERS Data System 1.8.1 - Java Deserialization
+Platform: windows
+
+CVE: [u'CVE-2008-1247', u'CVE-2006-5202']
+Description: Linksys WRT54G Firmware 1.00.9 - Security Bypass (2)
+Platform: hardware
+
+CVE: []
+Description: D-Link Devices - HNAP SOAPAction-Header Command Execution (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: VHCS 2.4.7.1 - 'vhcs2_daemon' Remote Code Execution
+Platform: linux
+
+CVE: []
+Description: Microsoft IIS 4.0/5.0 and PWS - Extended Unicode Directory Traversal (5)
+Platform: windows
+
+CVE: []
+Description: D-Link DNS-320 ShareCenter < 1.06 - Backdoor Access
+Platform: hardware
+
+CVE: []
+Description: D-Link Devices - 'hedwig.cgi' Remote Buffer Overflow in Cookie Header (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: Komfy Switch with Camera DKZ-201S/W - WiFi Password Disclosure
+Platform: hardware
+
+CVE: []
+Description: D-Link DAP-1150 1.2.94 - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR-615H - OS Command Injection (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: D-Link Devices - UPnP M-SEARCH Multicast Command Injection (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: PIX Firewall 2.7/3.x/4.x/5 - Forged TCP RST
+Platform: hardware
+
+CVE: []
+Description: D-Link Devices - UPnP SOAP TelnetD Command Execution (Metasploit)
+Platform: unix
+
+CVE: []
+Description: D-Link AirPlus DI-614+ / DI-624 / DI-704 - DHCP Log HTML Injection
+Platform: hardware
+
+CVE: []
+Description: D-Link Devices - 'command.php' Remote Command Execution (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: TP-Link TL-WR1043N Router - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: D-Link DCS-930L - (Authenticated) Remote Command Execution (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR-605L - Captcha Handling Buffer Overflow (Metasploit)
+Platform: hardware
+
+CVE: []
+Description: Microworld eScan AntiVirus < 3.x - Remote Code Execution
+Platform: linux
+
+CVE: []
+Description: D-Link MPEG4 SHM Audio Control - 'VAPGDecoder.dll 1.7.0.5' Remote Buffer Overflow
+Platform: windows
+
+CVE: []
+Description: WDMyCloud < 2.30.165 - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: [u'CVE-2017-5816']
+Description: HP iMC Plat 7.2 - Remote Code Execution (2)
+Platform: windows
+
+CVE: []
+Description: D-Link Devices - UPnP SOAP Command Execution (Metasploit)
+Platform: hardware
+
+CVE: [u'CVE-2014-4511']
+Description: Gitlist 0.4.0 - Remote Code Execution
+Platform: multiple
+
+CVE: []
+Description: Mikrotik WinBox 6.42 - Credential Disclosure (Metasploit)
+Platform: windows
+
+CVE: []
+Description: Microsoft IIS 5.0 (Windows XP/2000/NT 4.0) - WebDAV 'ntdll.dll' Remote Buffer Overflow (2)
+Platform: windows
+
+CVE: []
+Description: Skype - URI Handler Input Validation
+Platform: windows
+
+CVE: []
+Description: UplusFTP Server 1.7.0.12 - Remote Buffer Overflow
+Platform: windows
+
+CVE: []
+Description: D-Link DIR-601 - Command Injection
+Platform: hardware
+
+CVE: []
+Description: GlobalSunTech Access Point GL2422AP-0T - Information Disclosure
+Platform: hardware
+
+CVE: [u'CVE-2016-5764']
+Description: Rumba FTP Client 4.x - Remote Stack Buffer Overflow (SEH)
+Platform: windows
+
+CVE: []
+Description: D-Link DIR-815 / DIR-850L - SSDP Command Injection
+Platform: hardware
+
+CVE: []
+Description: D-Link DCS-5605 Network Surveillance - ActiveX Control 'DcsCliCtrl.dll' lstrcpyW Remote Buffer Overflow
+Platform: hardware
+
+CVE: []
+Description: ZKSoftware Biometric Attendence Managnmnet Hardware[MIPS] 2 - Improper Authentication
+Platform: hardware
+
+CVE: []
+Description: Symantec Ams Intel Alert Handler Service - Design Flaw
+Platform: windows
+
+CVE: []
+Description: Kerio Personal Firewall 2.1.x - Remote Authentication Packet Buffer Overflow (2)
+Platform: windows
+
+CVE: []
+Description: Vice City Multiplayer Server 0.3z R2 - Remote Code Execution
+Platform: windows
+
+CVE: []
+Description: D-Link DIR-880L - Multiple Buffer Overflow Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: Trend Micro Threat Discovery Appliance 2.6.1062r1 - 'dlp_policy_upload.cgi' Remote Code Execution
+Platform: linux
+
+CVE: []
+Description: OpenBSD 3.x/4.x - ICMPv6 Packet Handling Remote Buffer Overflow
+Platform: openbsd
+
+CVE: []
+Description: Mongoose Web Server 2.11 - Directory Traversal
+Platform: windows
+
+CVE: []
+Description: GetGo Download Manager 5.3.0.2712 - Buffer Overflow (SEH)
+Platform: windows
+
+CVE: []
+Description: FileZilla Client 2.2.x - Remote Buffer Overflow (SEH)
+Platform: windows
+
+Searching for D-Link
+=================================================================================
+exploit search webapps
+=================================================================================
+Exploits found: 332
+CVE: []
+Description: D-Link DIR-8xx Routers - Local Firmware Upload
+Platform: hardware
+
+CVE: []
+Description: D-Link DCS Cameras - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: D-Link Dir-600M N150 - Cross-Site Scripting
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR-8xx Routers - Root Remote Code Execution
+Platform: hardware
+
+CVE: [u'CVE-2013-2271']
+Description: D-Link DSL-2740B ADSL Router - Authentication Bypass
+Platform: hardware
+
+CVE: []
+Description: D-Forum 1.11 - 'Nav.php3' Cross-Site Scripting
+Platform: php
+
+CVE: []
+Description: D-Link DSL-2640B ADSL Router - Authentication Bypass
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR-8xx Routers - Leak Credentials
+Platform: hardware
+
+CVE: []
+Description: D-Link DSL-2750B ADSL Route' - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: [u'CVE-2017-6190']
+Description: D-Link DWR-116 / DWR-116A1 - Arbitrary File Download
+Platform: hardware
+
+CVE: []
+Description: D-Link Routers - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: D-Link DWR-932 Firmware 4.00 - Authentication Bypass
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR-645 1.03B08 - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: QuickEStore 8.2 - 'insertorder.cfm' SQL Injection
+Platform: php
+
+CVE: [u'CVE-2017-7398']
+Description: D-Link DIR-615 - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: Link Station Pro - Multiple Vulnerabilities
+Platform: php
+
+CVE: []
+Description: TP-Link Archer CR-700 - Cross-Site Scripting
+Platform: hardware
+
+CVE: [u'CVE-2018-10823']
+Description: D-Link Routers - Command Injection
+Platform: hardware
+
+CVE: []
+Description: CosmoQuest - Authentication Bypass
+Platform: asp
+
+CVE: []
+Description: D-Link WBR-1310 - Authentication Bypass
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR-600M Wireless N 150 - Authentication Bypass
+Platform: hardware
+
+CVE: []
+Description: D-Link DSL-2640B ADSL Router - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: D-Link DI-524 - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: Orange Inventel LiveBox 5.08.3-sp - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: [u'CVE-2018-10824', u'CVE-2018-10822']
+Description: D-Link Routers - Plaintext Password
+Platform: hardware
+
+CVE: []
+Description: D-Link DSL-2780B DLink_1.01.14 - Remote DNS Change
+Platform: hardware
+
+CVE: []
+Description: Same Team E-shop manager - SQL Injection
+Platform: php
+
+CVE: []
+Description: Typo3 - File Disclosure
+Platform: php
+
+CVE: []
+Description: PHP-Charts 1.0 - Code Execution
+Platform: php
+
+CVE: []
+Description: D-Link DSL-2730B Modem - Cross-Site Scripting Injection Stored DnsProxy.cmd
+Platform: hardware
+
+CVE: [u'CVE-2017-6411']
+Description: D-Link DSL-2730U Wireless N 150 - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: Rash CMS - SQL Injection
+Platform: php
+
+CVE: []
+Description: Pollen CMS 0.6 - 'index.php?p' Paramete' Local File Disclosure
+Platform: php
+
+CVE: [u'CVE-2017-15958']
+Description: D-Park Pro 1.0 - SQL Injection
+Platform: php
+
+CVE: [u'CVE-2018-9032']
+Description: D-Link DIR-850L Wireless AC1200 Dual Band Gigabit Cloud Router - Authentication Bypass
+Platform: php
+
+CVE: []
+Description: D-Link DNS-323 - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: D-Link - OS-Command Injection via UPnP Interface
+Platform: hardware
+
+CVE: []
+Description: D-Link Routers - Authentication Bypass (1)
+Platform: hardware
+
+CVE: []
+Description: MASA2EL Music City 1.0 - SQL Injection
+Platform: php
+
+CVE: []
+Description: IrIran Shoping Script - SQL Injection
+Platform: php
+
+CVE: []
+Description: Sagemcom F@ST 3864 V2 - Get Admin Password
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR601 2.02 - Credential Disclosure
+Platform: hardware
+
+CVE: []
+Description: D-Link DNS-325 ShareCenter < 1.05B03 - Multiple Vulnerabilities
+Platform: php
+
+CVE: []
+Description: D-Link/TRENDnet - NCC Service Command Injection (Metasploit)
+Platform: linux
+
+CVE: [u'CVE-2018-17440', u'CVE-2018-17442', u'CVE-2018-17443', u'CVE-2018-17441']
+Description: D-Link Central WiFiManager Software Controller 1.03 - Multiple Vulnerabilities
+Platform: php
+
+CVE: []
+Description: xBtiTracker - SQL Injection
+Platform: php
+
+CVE: []
+Description: IP.Gallery 4.2.x/5.0.x - Persistent Cross-Site Scripting
+Platform: php
+
+CVE: []
+Description: D-Link DSL-2730B Modem - Cross-Site Scripting Injection Stored Wlsecrefresh.wl & Wlsecurity.wl
+Platform: hardware
+
+CVE: []
+Description: D-Link DSL-2640B ADSL Router - 'dnscfg' Remote DNS Change
+Platform: hardware
+
+CVE: [u'CVE-2017-12943']
+Description: D-Link DIR-600 - Authentication Bypass
+Platform: hardware
+
+CVE: []
+Description: D-Link DKVM-IP8 - Cross-Site Scripting
+Platform: hardware
+
+CVE: [u'CVE-2018-6936']
+Description: D-Link DIR-600M Wireless - Cross-Site Scripting
+Platform: hardware
+
+CVE: []
+Description: MRCGIGUY Thumbnail Gallery Post 1b - Arbitrary File Upload
+Platform: php
+
+CVE: []
+Description: Web Solutions Wcs2u - SQL Injection
+Platform: php
+
+CVE: []
+Description: Ecommercemax Solutions Digital Goods Seller - SQL Injection
+Platform: asp
+
+CVE: []
+Description: D-Link DCS Series - Cross-Site Request Forgery (Change Admin Password)
+Platform: hardware
+
+CVE: []
+Description: D-Link Routers - Authentication Bypass (2)
+Platform: hardware
+
+CVE: []
+Description: PageKit 1.0.10 - Password Reset
+Platform: php
+
+CVE: []
+Description: D-Link DIR-505 1.06 - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: SurgeLDAP 1.0 d - 'User.cgi' Cross-Site Scripting
+Platform: cgi
+
+CVE: []
+Description: Star Articles 6.0 - Arbitrary File Upload
+Platform: php
+
+CVE: []
+Description: D-Link DNS-343 ShareCenter < 1.05 - Command Injection
+Platform: php
+
+CVE: []
+Description: work system E-Commerce 3.0.5 - Remote File Inclusion
+Platform: php
+
+CVE: []
+Description: Tugux CMS - 'nid' Blind SQL Injection
+Platform: php
+
+CVE: []
+Description: WordPress Plugin mySTAT 2.6 - SQL Injection
+Platform: php
+
+CVE: []
+Description: Symantec Web Gateway - Cross-Site Scripting
+Platform: php
+
+CVE: []
+Description: RASPcalendar 1.01 (ASP) - Admin Login
+Platform: asp
+
+CVE: []
+Description: D-Link AP 3200 - Multiple Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: AJ Matrix DNA - SQL Injection
+Platform: php
+
+CVE: []
+Description: D-Link DIR-605 - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: DB Top Sites 1.0 - Remote Command Execution
+Platform: php
+
+CVE: []
+Description: Flatpress 1.0 - Remote Code Execution
+Platform: php
+
+CVE: []
+Description: WSN Links Free 4.0.34P - 'comments.php' Blind SQL Injection
+Platform: php
+
+CVE: []
+Description: Aprox CMS Engine 6.0 - Multiple Vulnerabilities
+Platform: php
+
+CVE: [u'CVE-2017-1000474']
+Description: Vehicle Sales Management System - Multiple Vulnerabilities
+Platform: php
+
+CVE: []
+Description: D-Link DIR-Series Routers - '/model/__show_info.php' Local File Disclosure
+Platform: hardware
+
+CVE: []
+Description: D-Link DIR-615 vE4 Firmware 5.10 - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: ScriptCase 8.1.053 - Multiple Vulnerabilities
+Platform: php
+
+CVE: []
+Description: D-Link DSL-2750u ME_1.09 - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: Maian Weblog 4.0 - Blind SQL Injection
+Platform: php
+
+CVE: []
+Description: AraDown - Blind SQL Injection
+Platform: php
+
+CVE: []
+Description: Pandora FMS 5.0/5.1 - Authentication Bypass
+Platform: php
+
+CVE: []
+Description: phptpoint Pharmacy Management System 1.0 - 'username' SQL Injection
+Platform: php
+
+CVE: []
+Description: D-Link DSL-2760U-E1 - Persistent Cross-Site Scripting
+Platform: hardware
+
+CVE: []
+Description: WordPress Plugin Count Per Day 3.2.5 - 'counter.php' Cross-Site Scripting
+Platform: php
+
+CVE: []
+Description: ZeusCart 2.3 - 'maincatid' SQL Injection
+Platform: php
+
+CVE: []
+Description: nullam blog 0.1.2 - Local File Inclusion / File Disclosure / SQL Injection / Cross-Site Scripting
+Platform: php
+
+CVE: []
+Description: OpenEMM-2013 8.10.380.hf13.0.066 - SOAP SQL Injection / Persistent Cross-Site Scripting
+Platform: jsp
+
+CVE: [u'CVE-2015-9222', u'CVE-2014-9222']
+Description: RomPager 4.34 (Multiple Router Vendors) - 'Misfortune Cookie' Authentication Bypass
+Platform: hardware
+
+CVE: []
+Description: D-link DAP-1360 - Path Traversal / Cross-Site Scripting
+Platform: hardware
+
+CVE: []
+Description: D-Link DSL-2640R - DNS Change
+Platform: hardware
+
+CVE: []
+Description: Automated link exchange portal 1.3 - Multiple Vulnerabilities
+Platform: php
+
+CVE: [u'CVE-2013-5945', u'CVE-2013-5946']
+Description: D-Link DSR Router Series - Remote Command Execution
+Platform: hardware
+
+CVE: [u'CVE-2013-5730']
+Description: D-Link DSL-2740B - Multiple Cross-Site Request Forgery Vulnerabilities
+Platform: hardware
+
+CVE: []
+Description: D-Link DSL-2640B ADSL Router - 'ddnsmngr' Remote DNS Change
+Platform: hardware
+
+CVE: []
+Description: WordPress Plugin CMS Tree Page View 1.4 - Cross-Site Request Forgery / Privilege Escalation
+Platform: php
+
+CVE: [u'CVE-2017-5874']
+Description: D-Link DIR-600M - Cross-Site Request Forgery
+Platform: hardware
+
+CVE: []
+Description: al3jeb script - Remote Change Password
+Platform: php
+
+CVE: []
+Description: Tastydir 1.2 (1216) - Multiple Vulnerabilities
+Platform: php
+
+CVE: [u'CVE-2017-6971']
+Description: NfSen < 1.3.7 / AlienVault OSSIM 5.3.4 - Command Injection
+Platform: linux
+
+Searching for Dericam
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Dericam
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Dericam
+=================================================================================
+exploit search remote
+=================================================================================
+Exploits found: 0
+Searching for Dericam
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for Foscam
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Foscam
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Foscam
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Foscam
+=================================================================================
+exploit search webapps
+=================================================================================
+Exploits found: 1
+CVE: [u'CVE-2013-2574']
+Description: FOSCAM IP-Cameras - Improper Access Restrictions
+Platform: hardware
+
+Searching for Icam
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Icam
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Icam
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Icam
+=================================================================================
+exploit search webapps
+=================================================================================
+Exploits found: 0
+Searching for KaiKong
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for KaiKong
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for KaiKong
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for KaiKong
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for Loftek
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Loftek
+=================================================================================
+exploit search local
+=================================================================================
+Exploits found: 0
+Searching for Loftek
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Loftek
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for Coolcam
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Coolcam
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Coolcam
+=================================================================================
+exploit search remote
+=================================================================================
+Exploits found: 0
+Searching for Coolcam
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for Netcam
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Netcam
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Netcam
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Netcam
+=================================================================================
+exploit search webapps
+=================================================================================
+Exploits found: 0
+Searching for Panasonic
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Panasonic
+=================================================================================
+exploit search local
+=================================================================================
+Exploits found: 0
+Searching for Panasonic
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Panasonic
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for Polaroid
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Polaroid
+=================================================================================
+exploit search local
+=================================================================================
+Exploits found: 0
+Searching for Polaroid
+=================================================================================
+exploit search remote
+=================================================================================
+Exploits found: 0
+Searching for Polaroid
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for Pyle
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Pyle
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Pyle
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Pyle
+=================================================================================
+exploit search webapps
+=================================================================================
+Exploits found: 0
+Searching for Safehome
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Safehome
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Safehome
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Safehome
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for Sricam
+=================================================================================
+exploit search dos
+=================================================================================
+Exploits found: 0
+Searching for Sricam
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Sricam
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Sricam
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for Vstarcam
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Vstarcam
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Vstarcam
+=================================================================================
+exploit search remote
+=================================================================================
+Exploits found: 0
+Searching for Vstarcam
+=================================================================================
+exploit search webapps
+=================================================================================
+Exploits found: 0
+Searching for Wanscam
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Wanscam
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Wanscam
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Wanscam
+=================================================================================
+exploit search webapps
+=================================================================================
+Exploits found: 0

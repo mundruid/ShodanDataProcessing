@@ -1,0 +1,145 @@
+Searching for Brother
+** 713 printers **
+=================================================================================
+exploit search dos
+=================================================================================
+Exploits found: 11
+CVE: []
+Description: Brother HL-5370DW - series Authentication Bypass printer flooder
+Platform: hardware
+
+CVE: []
+Description: Triologic Media Player 7 - '.m3u' Local Heap Buffer Overflow (PoC)
+Platform: windows
+
+CVE: []
+Description: Mini-stream Ripper - '.m3u' Local Stack Overflow (PoC)
+Platform: windows
+
+CVE: []
+Description: ASX to MP3 Converter - '.m3u' Local Stack Overflow (PoC)
+Platform: windows
+
+CVE: []
+Description: Administrador de Contenidos - Admin Authentication Bypass
+Platform: asp
+
+CVE: []
+Description: Kaspersky 2010 - Remote Memory Corruption / Denial of Service (PoC)
+Platform: windows
+
+CVE: [u'CVE-2017-16249']
+Description: Debut Embedded HTTPd 1.20 - Denial of Service
+Platform: hardware
+
+CVE: []
+Description: Slurp 1.10 - SysLog Remote Format String
+Platform: freebsd
+
+CVE: []
+Description: Mini-stream RM-MP3 Converter 3.0.0.7 - '.m3u' Local Stack Overflow (PoC)
+Platform: windows
+
+CVE: []
+Description: RM Downloader - '.m3u' Local Stack Overflow (PoC)
+Platform: windows
+
+CVE: []
+Description: WM Downloader - '.m3u' Local Stack Overflow (PoC)
+Platform: windows
+
+Searching for Brother
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Brother
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Brother
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for HP OfficeJet
+=================================================================================
+exploit search dos
+=================================================================================
+Exploits found: 0
+Searching for HP OfficeJet
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for HP OfficeJet
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for HP OfficeJet
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for HP LaserJet
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for HP LaserJet
+=================================================================================
+exploit search local
+=================================================================================
+Exploits found: 0
+Searching for HP LaserJet
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for HP LaserJet
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for Canon
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Canon
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Canon
+=================================================================================
+exploit search remote
+=================================================================================
+Exploits found: 0
+Searching for Canon
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
+Searching for Epson
+=================================================================================
+exploit search dos
+=================================================================================
+Unable to parse JSON response
+Searching for Epson
+=================================================================================
+exploit search local
+=================================================================================
+Unable to parse JSON response
+Searching for Epson
+=================================================================================
+exploit search remote
+=================================================================================
+Unable to parse JSON response
+Searching for Epson
+=================================================================================
+exploit search webapps
+=================================================================================
+Unable to parse JSON response
