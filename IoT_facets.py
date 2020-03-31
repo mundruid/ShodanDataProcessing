@@ -10,7 +10,12 @@ import shodan
 import sys
 
 # Configuration
-API_KEY = 'myKey'
+f = open("myKey.txt")
+myKey = f.readline()
+SHODAN_API_KEY = str(myKey)
+
+api = shodan.Shodan(SHODAN_API_KEY)
+f.close()
 
 # The list of properties we want summary information on
 FACETS = [

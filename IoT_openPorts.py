@@ -5,9 +5,12 @@
 import shodan
 import time
 
-SHODAN_API_KEY = "myKey"
+f = open("myKey.txt")
+myKey = f.readline()
+SHODAN_API_KEY = str(myKey)
 
 api = shodan.Shodan(SHODAN_API_KEY)
+f.close()
 
 # Wrap the request in a try/ except block to catch errors
 #devices = ['webcam',  'TP-Link', 'axis', 'D-Link', 'Dericam', 'Foscam', 'Icam', 'KaiKong', 'Loftek', 'Coolcam', 'Netcam', 'Panasonic', 'Polaroid', 'Pyle', 'Safehome', 'Sricam', 'Vstarcam', 'Wanscam', 'router', 'netgear', 'linksys', 'Asus', 'Tenda', 'Amazon Echo', 'Google Home', 'printer', 'Brother', 'HP OfficeJet', 'HP LaserJet', 'Canon', 'Epson']
