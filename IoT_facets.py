@@ -8,6 +8,8 @@
 
 import shodan
 import sys
+import csv
+import datetime
 
 # Configuration
 f = open("myKey.txt")
@@ -53,6 +55,9 @@ with open(input_file_devices, 'r') as csv_file_devs:
     for row in reader:
         devices_data[row[0]] = (row[1:])
 
+output_file_name = 'facets' + str(datetime.datetime.now()) + '.txt'
+output_file = open(output_file_name, 'w')
+
 for dev_item in devices_data:
         for model in devices_data[dev_item]:
             try:
@@ -62,20 +67,25 @@ for dev_item in devices_data:
                 # And it also runs faster than doing a search().
                 result = api.count(query, facets=FACETS)
 
-                print('Shodan Summary Information')
-                print('Query: %s' % query)
-                print('Total Results: %s\n' % result['total'])
+                output_file.write('Shodan Summary Information \n')
+                output_file.write('Query: %s' % query)
+                output_file.write('\n')
+                output_file.write('Total Results: %s\n' % result['total'])
+                output_file.write('\n')
 
                 # Print the summary info from the facets
                 for facet in result['facets']:
-                    print(FACET_TITLES[facet])
+                    output_file.write(FACET_TITLES[facet] + '\n')
 
                     for term in result['facets'][facet]:
-                        print('%s: %s' % (term['value'], term['count']))
+                        output_file.write('%s: %s' % (term['value'], term['count'])+ '\n')
 
                     # Print an empty line between summary info
-                    print('')
+                    output_file.write('\n')
 
-except Exception as e:
-    print('Error: %s' % e)
-    sys.exit(1)
+            except Exception as e:
+                print('Error: %s' % e)
+                sys.exit(1)
+
+output_file.close()
+csv_file_devs.close()
