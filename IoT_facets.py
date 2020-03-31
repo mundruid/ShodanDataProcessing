@@ -44,39 +44,37 @@ FACET_TITLES = {
     'country': 'Top 3 Countries',
 }
 
-devices = ['TP-Link', 'axis', 'D-Link', 'Dericam', 'Panasonic', 'netgear', 'linksys', 'Asus', 'Tenda', 'Amazon Echo', 'Brother', 'HP OfficeJet', 'HP LaserJet', 'Canon', 'Epson']
+# read devices from file
+input_file_devices = 'devices_small.csv'
+input_file_ports = 'ports_small.csv'
+devices_data = dict()
+with open(input_file_devices, 'r') as csv_file_devs:
+    reader = csv.reader(csv_file_devs)
+    for row in reader:
+        devices_data[row[0]] = (row[1:])
 
-# Input validation
-#if len(sys.argv) == 1:
-#    print('Usage: %s <search query>' % sys.argv[0])
-#    sys.exit(1)
+for dev_item in devices_data:
+        for model in devices_data[dev_item]:
+            try:
+                query = model
 
-try:
-    # Setup the api
-    api = shodan.Shodan(API_KEY)
+                # Use the count() method because it doesn't return results and doesn't require a paid API plan
+                # And it also runs faster than doing a search().
+                result = api.count(query, facets=FACETS)
 
-    # Generate a query string out of the command-line arguments
-    #query = ' '.join(sys.argv[1:])
-    for device in devices:
-        query = device
+                print('Shodan Summary Information')
+                print('Query: %s' % query)
+                print('Total Results: %s\n' % result['total'])
 
-        # Use the count() method because it doesn't return results and doesn't require a paid API plan
-        # And it also runs faster than doing a search().
-        result = api.count(query, facets=FACETS)
+                # Print the summary info from the facets
+                for facet in result['facets']:
+                    print(FACET_TITLES[facet])
 
-        print('Shodan Summary Information')
-        print('Query: %s' % query)
-        print('Total Results: %s\n' % result['total'])
+                    for term in result['facets'][facet]:
+                        print('%s: %s' % (term['value'], term['count']))
 
-        # Print the summary info from the facets
-        for facet in result['facets']:
-            print(FACET_TITLES[facet])
-
-            for term in result['facets'][facet]:
-                print('%s: %s' % (term['value'], term['count']))
-
-            # Print an empty line between summary info
-            print('')
+                    # Print an empty line between summary info
+                    print('')
 
 except Exception as e:
     print('Error: %s' % e)
