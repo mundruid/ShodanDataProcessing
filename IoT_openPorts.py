@@ -4,6 +4,7 @@
 
 import shodan
 import time
+import csv
 
 f = open("myKey.txt")
 myKey = f.readline()
@@ -23,11 +24,11 @@ with open(input_file_devices, 'r') as csv_file:
 print('Device, number of telnet, number of http, number of https, port 8081, port 8080, port 21, port 137, number of samba, number of netbios')
 for dev_item in devices_data:
     #          # Search Shodan
-    f.write('Searching for '+ dev_item)
+    print('Searching for '+ dev_item)
     for model in devices_data[dev_item]:
         try:
                 results = api.search(model)
-                num_telnet = api.search(device + ' port:23')
+                num_telnet = api.search(model + ' port:23')
                 #     num_http = api.search(device + ' port:80')
                 #     num_https = api.search(device + ' port:443')
                 #     num_8081 = api.search(device + ' port:8081')
