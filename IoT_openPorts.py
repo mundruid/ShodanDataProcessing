@@ -38,7 +38,7 @@ for dev_item in devices_data:
                 #     num_samba = api.search(device+ ' product:samba')
                 # #num_netbios = api.search('webcam product:netbios')
                 # print(device + ', ' + str(results['total']) + ', ' + str(num_telnet['total']) + ', ' + str(num_http['total']) + ', ' + str(num_https['total']) + ', ' + str(num_8081['total']) + ', ' + str(num_8080['total']) + ', ' + str(num_ftp['total']) + ', ' + str(num_137['total']) + ', ' + str(num_samba['total']))
-                print(device + ', ' + str(results['total']) + ', ' + str(num_telnet['total']))
+                print(model + ', ' + str(results['total']) + ', ' + str(num_telnet['total']))
                 time.sleep(20)
         except Exception as e:
                 print(e)
