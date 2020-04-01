@@ -15,8 +15,8 @@ api = shodan.Shodan(SHODAN_API_KEY)
 f.close()
 
 # read devices from file
-input_file_devices = 'devices_small.csv'
-input_file_ports = 'ports_small.csv'
+input_file_devices = './hosts/devices_small.csv'
+input_file_ports = './attributes/ports_small.csv'
 devices_data = dict()
 with open(input_file_devices, 'r') as csv_file_devs:
     reader = csv.reader(csv_file_devs)
@@ -29,7 +29,7 @@ with open(input_file_ports, 'r') as csv_file_ports:
     for row in reader:
         ports_data[row[0]] = (row[1:])
 
-output_file_name = 'ports' + str(datetime.datetime.now()) + '.csv'
+output_file_name = './data/ports' + str(datetime.datetime.now()) + '.csv'
 output_file = open(output_file_name, 'w')
 
 # print header row in output file

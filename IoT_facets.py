@@ -47,15 +47,15 @@ FACET_TITLES = {
 }
 
 # read devices from file
-input_file_devices = 'devices_small.csv'
-input_file_ports = 'ports_small.csv'
+input_file_devices = './hosts/devices_small.csv'
+input_file_ports = './attributes/ports_small.csv'
 devices_data = dict()
 with open(input_file_devices, 'r') as csv_file_devs:
     reader = csv.reader(csv_file_devs)
     for row in reader:
         devices_data[row[0]] = (row[1:])
 
-output_file_name = 'facets' + str(datetime.datetime.now()) + '.txt'
+output_file_name = './data/facets' + str(datetime.datetime.now()) + '.txt'
 output_file = open(output_file_name, 'w')
 
 for dev_item in devices_data:
