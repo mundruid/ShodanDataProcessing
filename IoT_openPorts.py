@@ -4,57 +4,61 @@
 
 import shodan
 import time
+import datetime
+import csv
 
-SHODAN_API_KEY = "myKey"
+f = open("myKey.txt")
+myKey = f.readline()
+SHODAN_API_KEY = str(myKey)
 
 api = shodan.Shodan(SHODAN_API_KEY)
+f.close()
 
-# Wrap the request in a try/ except block to catch errors
-#devices = ['webcam',  'TP-Link', 'axis', 'D-Link', 'Dericam', 'Foscam', 'Icam', 'KaiKong', 'Loftek', 'Coolcam', 'Netcam', 'Panasonic', 'Polaroid', 'Pyle', 'Safehome', 'Sricam', 'Vstarcam', 'Wanscam', 'router', 'netgear', 'linksys', 'Asus', 'Tenda', 'Amazon Echo', 'Google Home', 'printer', 'Brother', 'HP OfficeJet', 'HP LaserJet', 'Canon', 'Epson']
-devices = ['webcam',  'TP-Link', 'axis', 'D-Link', 'Dericam', 'Panasonic', 'router', 'netgear', 'linksys', 'Asus', 'Tenda', 'Amazon Echo', 'printer', 'Brother', 'HP OfficeJet', 'HP LaserJet', 'Canon', 'Epson']
-# lights = ['', 'router', 'Amazon Echo', 'printer', 'light']
-exploits_type = ['dos', 'local', 'remote', 'webapps']
-exploits_platform = ['windows', 'php', 'linux', 'hardware']
+# read devices from file
+input_file_devices = './hosts/devices_small.csv'
+input_file_ports = './attributes/ports_small.csv'
+devices_data = dict()
+with open(input_file_devices, 'r') as csv_file_devs:
+    reader = csv.reader(csv_file_devs)
+    for row in reader:
+        devices_data[row[0]] = (row[1:])
 
-print('Device, number of telnet, number of http, number of https, port 8081, port 8080, port 21, port 137, number of samba, number of netbios')
-for device in devices:
-    try:
-        results = api.search(device)
-        num_telnet = api.search(device + ' port:23')
-        num_http = api.search(device + ' port:80')
-        num_https = api.search(device + ' port:443')
-        num_8081 = api.search(device + ' port:8081')
-        num_8080 = api.search(device + ' port:8080')
-        num_ftp = api.search(device + ' port:21')
-        num_137 = api.search(device + ' port:137')
-        num_samba = api.search(device+ ' product:samba')
-        #num_netbios = api.search('webcam product:netbios')
-        print(device + ', ' + str(results['total']) + ', ' + str(num_telnet['total']) + ', ' + str(num_http['total']) + ', ' + str(num_https['total']) + ', ' + str(num_8081['total']) + ', ' + str(num_8080['total']) + ', ' + str(num_ftp['total']) + ', ' + str(num_137['total']) + ', ' + str(num_samba['total']))
-        time.sleep(20)
-    except Exception as e:
-        print(e)
+ports_data = dict()
+with open(input_file_ports, 'r') as csv_file_ports:
+    reader = csv.reader(csv_file_ports)
+    for row in reader:
+        ports_data[row[0]] = (row[1:])
 
-# change word and list
-#for device in webcams:
-#    print('Searching for '+ device)
-#    print('=================================================================================')
-    # Wrap the request in a try/ except block to catch errors
-#    try:
-        # Search Shodan
-        # change word and list
-#        print('Webcam, number of telnet, number of http, number of https, port 8081, port 137, number of samba, number of netbios')
-#        results = api.search(device + ' webcam')
-#        telnet = api.search(device + ' webcam port:23')
-        #http = api.search(device + ' webcam port:80')
-        #http1 = api.search(device + ' webcam port:8080')
-        #http2 = api.search(device + ' webcam port:8081')
-        #samba = api.search(device + ' webcam product:samba')
-        #netbios = api.search(device + ' webcam port:137')
+output_file_name = './data/ports' + str(datetime.datetime.now()) + '.csv'
+output_file = open(output_file_name, 'w')
 
-        # Show the results
-#        print('Results found: {}'.format(telnet['total']))
-        #print('Port {}'.format(results['port']))
-        #print(telnet['total'] + ', ' + http['total'] + ', ' + http1['total'] + ', ' + http2['total'] + ', ' + samba['total'] + ', ' + netbios['total'] )
-#        print('')
-#    except Exception as e:
-#        print(e)
+# print header row in output file
+output_file.write('Device Type, Device Model')
+for port_item in ports_data:
+        output_file.write(', ' + port_item)
+output_file.write('\n')
+
+# print port results in output file
+for dev_item in devices_data:
+        for model in devices_data[dev_item]:
+                # print device type, model, and how many devices were found
+                try:
+                        results = api.search(model)
+                        output_file.write(dev_item + ', ' + model + ', ' + str(results['total']))
+                except Exception as e:
+                        print(e)
+                # print ports per device model
+                for port_item in ports_data:
+                        for port in ports_data[port_item]:
+                                try:
+                                        num_ports = api.search(model + ' port ' + port)
+                                        output_file.write(', ' + str(num_ports['total']))
+                                        time.sleep(20)
+                                except Exception as e:
+                                        print(e)
+                # done with csv line
+                output_file.write('\n')
+
+output_file.close()
+csv_file_devs.close()
+csv_file_ports.close()

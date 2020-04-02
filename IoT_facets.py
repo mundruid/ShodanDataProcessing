@@ -8,9 +8,16 @@
 
 import shodan
 import sys
+import csv
+import datetime
 
 # Configuration
-API_KEY = 'myKey'
+f = open("myKey.txt")
+myKey = f.readline()
+SHODAN_API_KEY = str(myKey)
+
+api = shodan.Shodan(SHODAN_API_KEY)
+f.close()
 
 # The list of properties we want summary information on
 FACETS = [
@@ -39,40 +46,46 @@ FACET_TITLES = {
     'country': 'Top 3 Countries',
 }
 
-devices = ['TP-Link', 'axis', 'D-Link', 'Dericam', 'Panasonic', 'netgear', 'linksys', 'Asus', 'Tenda', 'Amazon Echo', 'Brother', 'HP OfficeJet', 'HP LaserJet', 'Canon', 'Epson']
+# read devices from file
+input_file_devices = './hosts/devices_small.csv'
+input_file_ports = './attributes/ports_small.csv'
+devices_data = dict()
+with open(input_file_devices, 'r') as csv_file_devs:
+    reader = csv.reader(csv_file_devs)
+    for row in reader:
+        devices_data[row[0]] = (row[1:])
 
-# Input validation
-#if len(sys.argv) == 1:
-#    print('Usage: %s <search query>' % sys.argv[0])
-#    sys.exit(1)
+output_file_name = './data/facets' + str(datetime.datetime.now()) + '.txt'
+output_file = open(output_file_name, 'w')
 
-try:
-    # Setup the api
-    api = shodan.Shodan(API_KEY)
+for dev_item in devices_data:
+        for model in devices_data[dev_item]:
+            try:
+                query = model
 
-    # Generate a query string out of the command-line arguments
-    #query = ' '.join(sys.argv[1:])
-    for device in devices:
-        query = device
+                # Use the count() method because it doesn't return results and doesn't require a paid API plan
+                # And it also runs faster than doing a search().
+                result = api.count(query, facets=FACETS)
 
-        # Use the count() method because it doesn't return results and doesn't require a paid API plan
-        # And it also runs faster than doing a search().
-        result = api.count(query, facets=FACETS)
+                output_file.write('Shodan Summary Information \n')
+                output_file.write('Query: %s' % query)
+                output_file.write('\n')
+                output_file.write('Total Results: %s\n' % result['total'])
+                output_file.write('\n')
 
-        print('Shodan Summary Information')
-        print('Query: %s' % query)
-        print('Total Results: %s\n' % result['total'])
+                # Print the summary info from the facets
+                for facet in result['facets']:
+                    output_file.write(FACET_TITLES[facet] + '\n')
 
-        # Print the summary info from the facets
-        for facet in result['facets']:
-            print(FACET_TITLES[facet])
+                    for term in result['facets'][facet]:
+                        output_file.write('%s: %s' % (term['value'], term['count'])+ '\n')
 
-            for term in result['facets'][facet]:
-                print('%s: %s' % (term['value'], term['count']))
+                    # Print an empty line between summary info
+                    output_file.write('\n')
 
-            # Print an empty line between summary info
-            print('')
+            except Exception as e:
+                print('Error: %s' % e)
+                sys.exit(1)
 
-except Exception as e:
-    print('Error: %s' % e)
-    sys.exit(1)
+output_file.close()
+csv_file_devs.close()
