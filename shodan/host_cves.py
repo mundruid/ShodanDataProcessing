@@ -21,11 +21,11 @@ def get_host_services(ip, token):
 
 
 def print_cves(ports, token):
-    """[summary]
+    """Prints all cves for a specific host
 
     Args:
-        ports ([type]): [description]
-        token ([type]): [description]
+        ports (list): list of port numbers that are exposed
+        token (str): Shodan key
     """
     api = shodan.Shodan(token)
 
