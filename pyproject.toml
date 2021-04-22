@@ -5,7 +5,7 @@ description = ""
 authors = ["drx <xenia.mountrouidou@networktocode.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 shodan = "^1.25.0"
 
 [tool.poetry.dev-dependencies]

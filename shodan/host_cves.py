@@ -13,7 +13,7 @@ def get_host_services(ip, token):
         token (str): Shodan key
 
     Returns:
-        [type]: [description]
+        [json]: dictionary with host data
     """
     api = shodan.Shodan(token)
     host_services = api.host(ip)
@@ -35,7 +35,7 @@ def print_cves(ports, token):
 
             for exploit in exploits['matches']:
                 print(f'CVE: {exploit["cve"]}')
-                print('Description: {exploit["description"]}')
+                print(f'Description: {exploit["description"]}')
                 print(exploit)
                 print('')
 
@@ -46,9 +46,10 @@ def print_cves(ports, token):
 def main():
     """Main entrypoint"""
     env = os.environ.get
-    token = env("SHODAN_TOKEN", "")
+    token = env("SHODAN_TOKEN")
+    ip = input("Give me an IP, any IP ")
 
-    resp = get_host_services('8.8.8.8', token)
+    resp = get_host_services(ip, token)
     pprint.pprint(resp)
     print_cves(resp['ports'], token)
 
